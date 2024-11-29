@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: black; 
+     height: 60px;
+  }
+  .header .headerList{
+     padding: 10px 0px 2px 0px;
+     margin: 0;
+     list-style: none; 
+     display: flex;
+     justify-content: center;
+     align-items: center !important;
+      row-gap: 5px;  
+  
+  }
+  .headerList li{
+    text-decoration: none;
+  }
+  .headerList li a{
+      color: white;
+      text-decoration: none;
+      text-transform: capitalize;
+       font-size: 17px;
+       margin: 5px;
+       transition: all 0.2s;
+  
+  } 
+  .headerList li a:hover{
+      color: orangered;
+      text-decoration: underline;
+      cursor: pointer;
+  }
